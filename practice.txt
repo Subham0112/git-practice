@@ -5,3 +5,9 @@ Hello
 4. git commit -m “message” : it is used to save or record all the changes to the repository.
 5. git branch -M main : used to determine on main branch of repo does the file to be pushed.
 6.git branch : it is used to see on which branch i am currently in.
+7. git pull : to download and apply all the changes on our local file/folder that we done on remote github repo 
+8. git fetch : it only downloads the changes on our local file/folder that we done on remote github repo
+9. git status: it is used to see the current status of file( staged,untracked,modified)
+10: git branch <name>: used to create new branch.
+11: git switch <name>: used to switch between branch.
+
