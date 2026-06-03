@@ -1,0 +1,7 @@
+Hello 
+1. git init :- to initialize git folder on local folder.
+2. git remote add origin (repo link):- to add remote repo on where our local project should be pushed to. Its our repo name in github where project should be pushed into.
+3. git add <file name>:- it is used to stage the changed and untracked specific file in a folder
+4. git commit -m “message” : it is used to save or record all the changes to the repository.
+5. git branch -M main : used to determine on main branch of repo does the file to be pushed.
+6.git branch : it is used to see on which branch i am currently in.
