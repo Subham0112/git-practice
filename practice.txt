@@ -14,7 +14,10 @@ Hello
 13: git stash pop : used to restore our stashed work and remove it from stash.
 14: git stash apply: used to restore our stashed work but doesnt remove it from our stash.
 15. git stash drop: used to remove our stash from stash list.
-
-
-
-
+16. git checkout : used to switch,create and switch branch and restore files.it is multi purpose.
+17. git checkuout -b <branchName> : used to create and switch to 18. new branch.
+19. git checkout <branchName>: used to switch to existing another branch.
+20. git checkout -- <fileName> : removing all the changes means it restore  code  back to last commit.
+21. git switch -c <newBranchName>: it creates new branch and switch to that branch
+22. git restore . : it restores all the modified and uncommited files back to the last commit. it cannot restore commited file.
+23. git restore <fileName>: 
