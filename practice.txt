@@ -26,3 +26,5 @@ Hello
 26. git revert HEAD~1: It undo the previous commit. one commit back.
 27. git reset : It moves our current files in previous commit history. 
 28. git reset --soft HEAD: it moves our files to previous commit but has all the file staged. all the changes made on that file are not lost.
+29. git reset --mixed HEAD: it moves our file to previous branch but doesnot has any staged changes. means we have to add and commit again.
+30: git reset --hard HEAD: it moves our file to previous branch commit  removing all the others branch commit and work which we done on another commits. means commit history will be removed/erased.
