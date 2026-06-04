@@ -12,6 +12,7 @@ Hello
 11: git switch <name>: used to switch between branch.
 12: git stash : used to temporarily stage and save our uncommited changes.
 13: git stash pop : used to restore our stashed work and remove it from stash.
+<<<<<<< HEAD
 14: git stash apply: used to restore our stashed work but doesnt remove it from our stash.
 15. git stash drop: used to remove our stash from stash list.
 16. git checkout : used to switch,create and switch branch and restore files.it is multi purpose.
@@ -28,3 +29,7 @@ Hello
 28. git reset --soft HEAD: it moves our files to previous commit but has all the file staged. all the changes made on that file are not lost.
 29. git reset --mixed HEAD: it moves our file to previous branch but doesnot has any staged changes. means we have to add and commit again.
 30: git reset --hard HEAD: it moves our file to previous branch commit  removing all the others branch commit and work which we done on another commits. means commit history will be removed/erased.
+
+
+31. git rebase: It used to move our commit into the top of another branch commit.
+
