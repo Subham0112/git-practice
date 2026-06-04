@@ -21,4 +21,8 @@ Hello
 21. git switch -c <newBranchName>: it creates new branch and switch to that branch
 22. git restore . : it restores all the modified and uncommited files back to the last commit. it cannot restore commited file.
 23. git restore <fileName>: it restores the modified and uncommited specific files back to the last commit. it cannot restore commited file. 
-git restore --source=HEAD~1 App.tsx: it replaces current file with previous file commits.
+24. git restore --source=HEAD~1 App.tsx: it replaces current file with previous file commits.
+25. git revert HEAD: it revert back to previous commit head.it undo the last commit.It also create the new commit head for reverting previous commit.
+26. git revert HEAD~1: It undo the previous commit. one commit back.
+27. git reset : It moves our current files in previous commit history. 
+28. git reset --soft HEAD: it moves our files to previous commit but has all the file staged. all the changes made on that file are not lost.
