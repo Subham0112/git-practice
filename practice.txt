@@ -10,4 +10,6 @@ Hello
 9. git status: it is used to see the current status of file( staged,untracked,modified)
 10: git branch <name>: used to create new branch.
 11: git switch <name>: used to switch between branch.
+12: git stash : used to temporarily stage and save our uncommited changes.
+13: git stash pop : used to restore our stashed work and remove it from stash.
 
